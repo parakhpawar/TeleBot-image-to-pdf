@@ -7,7 +7,7 @@
 # from PIL import Image
 
 # # Telegram bot API token
-# API_TOKEN = '6649600399:AAEDKljNH8c5N50yU9iNv_Wf_4RHCJB_3fQ'
+# API_TOKEN = 'enter token here'
 
 # def start(update: Update, context: CallbackContext) -> None:
 #     update.message.reply_text('Send me the image(s) to convert to PDF.')
@@ -60,7 +60,7 @@ from reportlab.pdfgen import canvas
 
 
 # Replace 'YOUR_BOT_TOKEN' with your actual Telegram bot token
-TELEGRAM_BOT_TOKEN = '6649600399:AAEDKljNH8c5N50yU9iNv_Wf_4RHCJB_3fQ'
+TELEGRAM_BOT_TOKEN = 'enter token here'
 
 def convert_images_to_pdf(image_paths, pdf_path):
     c = canvas.Canvas(pdf_path, pagesize=letter)
